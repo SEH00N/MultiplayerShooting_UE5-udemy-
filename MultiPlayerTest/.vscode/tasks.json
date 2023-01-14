@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "MultiPlayerTest Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiPlayerTest",
+				"Win64",
+				"Debug",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiPlayerTest",
+				"Win64",
+				"Debug",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiPlayerTest Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MultiPlayerTest",
+				"Win64",
+				"Debug",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiPlayerTest",
+				"Win64",
+				"DebugGame",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiPlayerTest",
+				"Win64",
+				"DebugGame",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiPlayerTest Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MultiPlayerTest",
+				"Win64",
+				"DebugGame",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiPlayerTest",
+				"Win64",
+				"Development",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiPlayerTest",
+				"Win64",
+				"Development",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiPlayerTest Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MultiPlayerTest",
+				"Win64",
+				"Development",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiPlayerTest",
+				"Win64",
+				"Test",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiPlayerTest",
+				"Win64",
+				"Test",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiPlayerTest Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MultiPlayerTest",
+				"Win64",
+				"Test",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiPlayerTest",
+				"Win64",
+				"Shipping",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiPlayerTest",
+				"Win64",
+				"Shipping",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiPlayerTest Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MultiPlayerTest",
+				"Win64",
+				"Shipping",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiPlayerTest",
+				"IOS",
+				"Debug",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiPlayerTest",
+				"IOS",
+				"Debug",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiPlayerTest IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MultiPlayerTest",
+				"IOS",
+				"Debug",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiPlayerTest",
+				"IOS",
+				"DebugGame",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiPlayerTest",
+				"IOS",
+				"DebugGame",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiPlayerTest IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MultiPlayerTest",
+				"IOS",
+				"DebugGame",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiPlayerTest",
+				"IOS",
+				"Development",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiPlayerTest",
+				"IOS",
+				"Development",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiPlayerTest IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MultiPlayerTest",
+				"IOS",
+				"Development",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiPlayerTest",
+				"IOS",
+				"Test",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiPlayerTest",
+				"IOS",
+				"Test",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiPlayerTest IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MultiPlayerTest",
+				"IOS",
+				"Test",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiPlayerTest",
+				"IOS",
+				"Shipping",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiPlayerTest",
+				"IOS",
+				"Shipping",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiPlayerTest IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTest IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MultiPlayerTest",
+				"IOS",
+				"Shipping",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTestEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiPlayerTestEditor",
+				"Win64",
+				"Debug",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTestEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiPlayerTestEditor",
+				"Win64",
+				"Debug",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiPlayerTestEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTestEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MultiPlayerTestEditor",
+				"Win64",
+				"Debug",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTestEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiPlayerTestEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTestEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiPlayerTestEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiPlayerTestEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTestEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MultiPlayerTestEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTestEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiPlayerTestEditor",
+				"Win64",
+				"Development",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTestEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiPlayerTestEditor",
+				"Win64",
+				"Development",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiPlayerTestEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "MultiPlayerTestEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MultiPlayerTestEditor",
+				"Win64",
+				"Development",
+				"D:\\GitHub\\MultiplayerShooting_UE5-udemy-\\MultiPlayerTest\\MultiPlayerTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		}
+	]
+}
